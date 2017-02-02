@@ -5,6 +5,6 @@ app.get('/', function (req, res) {
   res.send('Hello World! from ' + process.env.HOSTNAME);
 });
 
-var server = app.listen(3000, function () {
+var server = app.listen(8080, function () {
   console.log('Server started');
 });
